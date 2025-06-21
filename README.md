@@ -1,52 +1,68 @@
-🛍️ Projeto Meteora
-Este repositório contém o código-fonte do projeto Meteora, uma página web responsiva que simula a vitrine de uma loja de moda. A proposta do projeto é apresentar categorias de produtos, banners promocionais e produtos em destaque de forma moderna e acessível em diversos dispositivos (mobile, tablet e desktop).
+# 🌟 PROJETO METEORA - LOJA DE MODA RESPONSIVA
 
-🧾 Conteúdo do Projeto
-O código HTML estrutura os seguintes componentes principais:
+Este repositório contém o código-fonte do projeto **Meteora**, uma loja virtual de moda desenvolvida em HTML com uso do framework **Bootstrap 5**. O objetivo é criar uma página **100% responsiva**, com banners promocionais, categorias e produtos em destaque.
 
-1. Cabeçalho (Navbar)
-Barra de navegação fixa no topo, com o logotipo da loja Meteora.
+> ⚠️ **Nota:** Este projeto ainda está em desenvolvimento. Algumas imperfeições serão **corrigidas posteriormente**, como ajustes de layout e melhorias visuais.
 
-Links de navegação: Home, Lojas, Novidades, Promoção.
+---
 
-Campo de busca com botão de envio.
+## 📁 ESTRUTURA DO PROJETO
 
-2. Carrossel de Banners
-Apresenta três banners promocionais com imagens adaptadas para diferentes tamanhos de tela.
+### 🔹 1. Cabeçalho (Navbar)
+- Logotipo da loja "Meteora"
+- Menu com links: `Home`, `Lojas`, `Novidades`, `Promoção`
+- Campo de busca responsivo
 
-Utiliza o componente carousel do Bootstrap para navegação entre os slides.
+### 🔹 2. Carrossel de Banners
+- Imagens promocionais com três slides
+- Compatível com diferentes tamanhos de tela (mobile, tablet, desktop)
+- Navegação por setas e indicadores
 
-3. Categorias de Produtos
-Seção "Busque por Categoria" com cartões representando diferentes tipos de produtos (camisas, bolsas, calçados, etc.).
+### 🔹 3. Categorias de Produtos
+- Seção: “Busque por categoria”
+- Cartões com imagens de categorias (camisas, bolsas, calçados, etc.)
+- Imagens adaptativas para cada tipo de dispositivo
 
-Cada item exibe uma imagem adaptativa para mobile, tablet e desktop.
+### 🔹 4. Produtos em Destaque
+- Seção: “Produtos que estão bombando!”
+- Cartões com:
+  - Imagem do produto
+  - Nome, descrição
+  - Botão “Saiba Mais”
 
-4. Produtos em Destaque
-Seção "Produtos que estão bombando!" com cartões de produtos populares.
+### 🔹 5. Seção de Facilidades
+- Benefícios como:
+  - Pagamento via PIX com desconto
+  - Entrega grátis
+  - Troca facilitada
+- Uso de ícones do **Bootstrap Icons**
 
-Cada cartão exibe imagem, nome do produto, descrição e botão de ação ("Saiba Mais").
+---
 
-5. Facilidades
-Seção destacando benefícios para o cliente (ex: pagamento via PIX com desconto, etc.), utilizando ícones do Bootstrap Icons.
+## 🛠️ TECNOLOGIAS UTILIZADAS
 
-📌 Observações
-Algumas imperfeições de layout e organização ainda estão presentes no código.
+- **HTML5**
+- **CSS3** (arquivo externo `estilos.css`)
+- **Bootstrap 5**
+- **Bootstrap Icons**
+- Imagens organizadas por tamanho (mobile, tablet, desktop)
 
-Estas serão corrigidas futuramente para garantir melhor usabilidade, consistência visual e padronização.
+---
 
-O código já utiliza Bootstrap 5 e ícones da biblioteca Bootstrap Icons.
+## 🚧 STATUS DO PROJETO
 
-As imagens são organizadas por dispositivo (Mobile, Tablet, Desktop) para garantir responsividade total.
+🔧 Em desenvolvimento! Algumas **imperfeições serão ajustadas** em breve para melhorar:
 
-💻 Tecnologias Utilizadas
-HTML5
+- Responsividade total
+- Harmonia visual
+- Organização e otimização do código
 
-CSS3 (arquivo externo: estilos.css)
+---
 
-Bootstrap 5
+## 📌 Observações Finais
 
-Bootstrap Icons
+- As imagens utilizadas fazem parte do pacote `meteora-assets`.
+- O foco está na estrutura e responsividade. Estilizações adicionais podem ser aplicadas conforme necessidade do projeto.
 
-Imagens fornecidas pelo pacote meteora-assets
+---
 
-Se quiser, posso gerar esse README em formato .md pronto para colar no GitHub. Deseja isso?
